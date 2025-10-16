@@ -30,7 +30,7 @@ contains
         implicit none
         real(kind=rkind), intent(in) :: b,h
         real(kind=rkind) :: a
-        at = 0.5_rkind*b*h
+        a = 0.5_rkind*b*h
     end function tarea
 
     !cylindervolume:pi*r^2*h
